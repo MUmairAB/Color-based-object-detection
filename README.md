@@ -8,4 +8,7 @@ The [cv2.inRange()](https://docs.opencv.org/3.4/d2/de8/group__core__array.html#g
 
 2. **cv2.bitwise_and()**
 
-The [cv2.bitwise_and()](https://docs.opencv.org/3.4/d2/de8/group__core__array.html#ga60b4d04b251ba5eb1392c34425497e14) function is used to perform bitwise AND operation with the mask generated from **cv2.inRange()** function.
+The [cv2.bitwise_and()](https://docs.opencv.org/3.4/d2/de8/group__core__array.html#ga60b4d04b251ba5eb1392c34425497e14) function is used to perform bitwise AND operation with the mask generated from **cv2.inRange()** function. The mask highlights the area where the color is detected in the input image. 
+
+# Images
+We used the following image as input for the color-based object detection. 
